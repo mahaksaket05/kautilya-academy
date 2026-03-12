@@ -1,0 +1,152 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI', sans-serif;
+}
+
+body{
+background:#f8f8f8;
+color:#222;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 10%;
+background:#c40000;
+box-shadow:0 3px 10px rgba(0,0,0,0.2);
+}
+
+.logo{
+font-size:26px;
+font-weight:bold;
+color:white;
+}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#ffd700;
+}
+
+.hero{
+height:85vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:
+linear-gradient(rgba(255,255,255,0.85),rgba(255,255,255,0.85)),
+url("https://images.unsplash.com/photo-1523240795612-9a054b0db644");
+background-size:cover;
+background-position:center;
+}
+
+.hero h2{
+font-size:46px;
+color:#c40000;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:25px;
+}
+
+button{
+padding:12px 30px;
+border:none;
+background:#c40000;
+color:white;
+font-weight:bold;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:#8b0000;
+}
+
+.section{
+padding:70px 10%;
+text-align:center;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card h3{
+color:#c40000;
+margin-bottom:10px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+max-width:500px;
+margin:auto;
+}
+
+input,textarea{
+padding:12px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+footer{
+background:#c40000;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+
+.card img{
+border-radius:50%;
+margin-bottom:10px;
+width:120px;
+height:120px;
+object-fit:cover;
+}
+
+.section p{
+max-width:700px;
+margin:10px auto;
+line-height:1.6;
+font-size:17px;
+}
+
+.logo img{
+height:60px;
+width:auto;
+}
+
+
